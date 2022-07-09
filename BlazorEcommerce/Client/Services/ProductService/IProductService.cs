@@ -1,6 +1,6 @@
 ﻿namespace BlazorEcommerce.Client.Services.ProductService
 {
-    public interface IProducrService
+    public interface IProductService
     {
         List<Product> Products { get; set; }
         Task GetProducts();

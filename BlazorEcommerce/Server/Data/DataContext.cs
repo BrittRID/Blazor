@@ -5,7 +5,7 @@
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-                
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,7 +36,7 @@
                  }
 
                         );
-                }
+        }
         public DbSet<Product> Products { get; set; }
 
     }
